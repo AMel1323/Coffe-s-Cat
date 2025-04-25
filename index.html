@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Coffe Cat - site de  café e gatos ">
+    <meta name="title" content="Coffe Cat - relaxamento e bem estar">
+
+    <title>coffe Cat</title>
+
+     <!--Favicon-->
+   <link rel="shortcut" href="assets/img/coffe-cat-mel.png" type="image/">
+
+   <!--css-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+   <!--fonts-->
+   <link  rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--header-->
+    <header class="header active">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/img/coffe-cat-mel.png">
+            </a>
+
+            <!--Nav Menu-->
+            <nav class="navbar active">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <!--dropdown-->
+                    <li class="dropdown-item">
+                        <div class="navbar-link  dropdown-toggle" data-dropdown-toggle>
+                            Serviços  <ion-icon name="chevron-down-outline"></ion-icon>
+                        </div>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                  Cafés
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Doces
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Salgados
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Bebidas
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">
+                            Cuidado com os gatos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn">Login</a>
+
+            <button class="search-btn" id="searchToggle " aria-label="buscar">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <!--botão link do icone menu-->
+            <button class="nav-toggle-btn" aria-label="menu mobile">
+                <ion-icon name="reorder-three-outline"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <!---BANNER-video-->
+    <section class="banner">
+        <video autoplay muted loop>
+            <source src="assets/videos/cat-videos-mel_1920x1080.mp4">
+        </video>
+    </section>
+
+ <!--script-->
+ <script src="assets/js/script.js"></script>
+ <!--ionicons-->
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
