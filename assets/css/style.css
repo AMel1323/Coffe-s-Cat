@@ -21,12 +21,11 @@
     /*==== gradiente ====*/
     --gradient1: linear-gradient(
       to right bottom,
-      hsl(0, 0%, 5%),
-      hsl(38, 61%, 20%),
-      hsl(43, 70%, 35%),
-      hsl(44, 85%, 45%),
-      hsl(45, 90%, 50%),
-      hsl(45, 95%, 60%)
+      rgb(245, 141, 72),
+      rgb(247, 166, 100),
+      rgb(249, 191, 130),
+      rgb(252, 216, 162),
+      rgb(255, 241, 194)
     );
   
     /*====cor do texto ====*/
@@ -217,14 +216,14 @@
   
   .search-btn:hover{
     transform: scale(1.2);
-    color: var(--white-color);
+    color: rgb(245, 141, 72);
   }
   
   /*---------------------*\
     #HEADER
   \*---------------------*/
   .logo img{
-    width: 260px;
+    width: 160px;
     height: auto;
     object-fit: contain;
     display: block;
@@ -282,7 +281,7 @@
   
   
   .navbar-link:hover{
-    color: var(--gold-color-light);
+    color: rgb(245, 141, 72);
   }
   
   .navbar,
